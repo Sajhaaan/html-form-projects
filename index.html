@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+       <form action="">
+        <h2>How can we help you?</h2>
+        <ul>
+            <li>
+                <label for="user-name">Your Name</label>
+                <input type="username" id="user-name" required>
+            
+            </li>
+            <li>
+                <label for="user-mail">Your Email Address</label>
+                <input type="email" id="user-mail">
+            </li>
+            <li>
+                <label for="user-phonenum">Your Phone Number</label>
+                <input type="number" id="user-phonenum">
+            </li>
+        </ul>
+        <label for="user-msg">Your Message</label>
+        <textarea name="user-msg" id="user-msg" cols="20" rows="10"></textarea>
+        <label for="" id="find-us">How did you find us?</label>
+        <select name="find-us" id="find-us">
+            <option value="web-search">Web Search</option>
+            <option value="instagram">instagram</option>
+            <option value="Youtube">Youtube</option>
+            <option value="social-media">Through Social Media</option>
+            <option value="none">none</option>
+        </select>
+        <h2 >How should we reply?</h2>
+        <ul>
+            <li class="form-control-inline">
+                
+                <input type="radio" id="contact-phone" name="contact">
+                <label for="contact-phone">Call me</label>
+                
+            </li>
+            <li class="form-control-inline">
+                <input type="radio" id="contact-mail" name="contact">
+                <label for="contact-mail">Send me an email</label>
+            </li>
+            <li class="form-control-inline">
+                <input type="radio" id="contact-dont" name="contact">
+                <label for="contact-dont">Don't reply</label>
+            </li>
+
+            
+        </ul>
+
+        <ul>
+            <li class="form-control-inline-terms">
+                <input type="checkbox">
+                <label for="agree-terms">Agree Terms & Conditions</label>
+            </li>
+        </ul>
+        <div id="btn">
+        <button type="reset" id="btn-clear">Clear</button>
+        <button type="submit" id="btn-submit">Submit</button>
+        </div>
+       </form>
+    </main>
+</body>
+</html>
